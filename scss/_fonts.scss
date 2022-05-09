@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'FuturaPTBook';
+    src: url('webFonts/FuturaPT/FuturaPTBook.otf');
+}
+@font-face {
+    font-family: 'FuturaPTBold';
+    src: url('webFonts/FuturaPT/FuturaPTBold.otf');
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'FuturaPTBook';
+}
+
+.btn {
+    font-family: 'FuturaPTBook';
+}
+
+li, span, a, p, select, .txt {
+    font-family: 'FuturaPTBook';
+}

@@ -1,0 +1,148 @@
+.intro {
+    .card {
+        border-radius: .375rem;
+        .card-title {
+            font-size: 1.25rem;
+            color: $title;
+        }
+        .card-text {
+            color: $paragraph;
+            font-size: .875rem;
+            line-height: 1.625rem;
+        }
+    }
+}
+
+.tab {
+    .nav-pills {
+        .nav-link {
+            padding: 0.675rem 1.75rem;
+            font-size: 1rem;
+            border-radius: .375rem;
+            color: $black;
+            &:hover {
+                color: $btn-color-two-hover;
+            }
+        }
+        .nav-link.active, .show>.nav-link {
+            color: $white;
+            background-color: $btn-color-one;
+            &:hover {
+                color: $white;
+                background-color: $btn-color-two-hover;
+                border-color: $btn-color-two-hover-border;
+            }
+        }
+    } 
+}
+
+.testimonials {
+    blockquote {
+        font-family: 'Nexa-Regular';
+        font-size: 1rem;
+        .blockquote-footer {
+            color: $white;
+        }
+        .btn-link {
+            color: $white;
+            &:hover {
+                color: $btn-color-two-hover;
+            }
+        }
+    }
+}
+
+.collaterals {
+    .card {
+        border-radius: .375rem;
+        .card-title {
+            font-size: 1.25rem;
+            color: $title;
+        }
+        .card-text {
+            color: $paragraph;
+            font-size: .875rem;
+            line-height: 1.625rem;
+        }
+        hr {
+            opacity: .1;
+        }
+    }
+    .btn-collateral {
+        border-radius: 0 0 0.375rem 0.375rem;
+        padding: 0.84rem 2rem;
+    }
+}
+
+.schedule {
+    .nav-pills {
+        background-color: #EEF1F4;
+
+        .active {
+            background: $orange-gra;
+        }
+    }
+
+    .nav-link {
+        padding: 20px 179px !important;
+        color: #5D5D5D;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 10px;
+    }
+
+    .card {
+        border-radius: 10px !important;
+    }
+
+    .sec-1 {
+        display: flex!important;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 1rem 1rem;
+    }
+
+    .badge {
+        color: red;
+        font-size: 20px !important;
+        background-color:#F4EFFD!important;
+        padding: 16px 20px !important;
+        margin-bottom: 10px;
+    }
+
+    .am-pm {
+        color: red;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    h5 {
+        color: red;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .icon-box {
+        display: flex;
+        align-items: center;
+    }
+
+    .btn {
+        font-size: 12px !important;
+    }
+
+    .btn-primary {
+        padding: 10px 20px !important;
+    }
+
+    h3 {
+        color: #142648 !important;
+        font-size: 38px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+

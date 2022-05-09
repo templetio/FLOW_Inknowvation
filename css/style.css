@@ -1,0 +1,394 @@
+@font-face {
+  font-family: "FuturaPTBook";
+  src: url("webFonts/FuturaPT/FuturaPTBook.otf");
+}
+@font-face {
+  font-family: "FuturaPTBold";
+  src: url("webFonts/FuturaPT/FuturaPTBold.otf");
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "FuturaPTBook";
+}
+
+.btn {
+  font-family: "FuturaPTBook";
+}
+
+li, span, a, p, select, .txt {
+  font-family: "FuturaPTBook";
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #434343 !important;
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #FF8900 !important;
+  opacity: 0.8;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: #FFFFFF !important;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: transparent;
+}
+
+.header .cover {
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+.header span {
+  color: #FF8900;
+  font-weight: 700 !important;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 18px;
+  border-radius: 0.375rem;
+}
+
+.btn-primary {
+  color: #FFFFFF !important;
+  background: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
+  border-color: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
+  padding: 0.625rem 2rem;
+}
+.btn-primary:hover {
+  color: #FFFFFF !important !important;
+  background: transparent !important;
+  border-color: #FFFFFF !important;
+}
+
+.btn-outline-primary {
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  border-color: #FFFFFF !important;
+  padding: 0.625rem 2rem;
+}
+.btn-outline-primary:hover {
+  color: #FFFFFF !important;
+  background: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
+  border-color: transparent !important;
+}
+
+footer .text-muted {
+  color: #5D5D5D !important;
+  font-size: 0.75rem;
+}
+footer .btn {
+  font-size: 0.875rem;
+}
+footer .fa-brands {
+  font-size: 1.25rem;
+  color: #AAAAAA;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+footer .fa-brands:hover {
+  color: #FF8900 !important;
+}
+footer .btn-link {
+  font-weight: 400;
+  color: #5D5D5D !important;
+  text-decoration: none;
+}
+footer .btn-link:hover {
+  color: #07DD87 !important;
+}
+
+.modal .modal-title {
+  font-size: 1.25rem;
+  color: #434343 !important;
+}
+
+.height-10 {
+  height: 10vh;
+}
+
+.height-20 {
+  height: 20vh;
+}
+
+.height-30 {
+  height: 30vh;
+}
+
+.height-40 {
+  height: 40vh;
+}
+
+.height-50 {
+  height: 90vh;
+}
+
+.height-61 {
+  height: 61vh;
+}
+
+.height-70 {
+  height: 70vh;
+}
+
+.height-80 {
+  height: 80vh;
+}
+
+.height-90 {
+  height: 90vh;
+}
+
+.height-100 {
+  height: 100vh;
+}
+
+.fs-20 {
+  font-size: 1.25rem;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #F5F5F5 !important;
+}
+
+.bg-gray {
+  --bs-bg-opacity: 1;
+  background-color: #AAAAAA !important;
+}
+
+.bg-blue {
+  background: linear-gradient(90deg, #21b1e2 0%, #0370af 100%);
+}
+
+.py-6 {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+.text-gray {
+  color: #5D5D5D !important;
+}
+
+.title {
+  font-family: "FuturaPTBold";
+  color: #434343 !important;
+  font-size: 24px;
+}
+
+.lead {
+  font-family: "FuturaPTBook";
+  color: #5D5D5D !important;
+  font-size: 18px;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.fa-youtube {
+  position: absolute;
+  font-size: 40px;
+  top: 41%;
+  left: 43%;
+}
+
+.btn-video-thumbnail {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #D0D0D0;
+}
+.btn-video-thumbnail:hover {
+  color: white !important;
+}
+
+.icon {
+  background: #1ec46b;
+  background: linear-gradient(45deg, #1ec46b 0%, #07dd87 100%);
+  border-radius: 1.375rem;
+  padding: 1.25rem;
+  width: 6rem;
+}
+.icon svg {
+  width: 3.5rem;
+  fill: #FFFFFF !important;
+}
+
+.intro .card {
+  border-radius: 0.375rem;
+}
+.intro .card .card-title {
+  font-size: 1.25rem;
+  color: #434343 !important;
+}
+.intro .card .card-text {
+  color: #5D5D5D !important;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+}
+
+.tab .nav-pills .nav-link {
+  padding: 0.675rem 1.75rem;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  color: #434343 !important;
+}
+.tab .nav-pills .nav-link:hover {
+  color: #FF8900 !important;
+}
+.tab .nav-pills .nav-link.active, .tab .nav-pills .show > .nav-link {
+  color: #FFFFFF !important;
+  background-color: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
+}
+.tab .nav-pills .nav-link.active:hover, .tab .nav-pills .show > .nav-link:hover {
+  color: #FFFFFF !important;
+  background-color: #FF8900 !important;
+  border-color: transparent !important;
+}
+
+.testimonials blockquote {
+  font-family: "Nexa-Regular";
+  font-size: 1rem;
+}
+.testimonials blockquote .blockquote-footer {
+  color: #FFFFFF !important;
+}
+.testimonials blockquote .btn-link {
+  color: #FFFFFF !important;
+}
+.testimonials blockquote .btn-link:hover {
+  color: #FF8900 !important;
+}
+
+.collaterals .card {
+  border-radius: 0.375rem;
+}
+.collaterals .card .card-title {
+  font-size: 1.25rem;
+  color: #434343 !important;
+}
+.collaterals .card .card-text {
+  color: #5D5D5D !important;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+}
+.collaterals .card hr {
+  opacity: 0.1;
+}
+.collaterals .btn-collateral {
+  border-radius: 0 0 0.375rem 0.375rem;
+  padding: 0.84rem 2rem;
+}
+
+.schedule .nav-pills {
+  background-color: #EEF1F4;
+}
+.schedule .nav-pills .active {
+  background: linear-gradient(90deg, #ee9034 0%, #cd7b22 100%);
+}
+.schedule .nav-link {
+  padding: 20px 179px !important;
+  color: #5D5D5D;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.schedule .card {
+  border-radius: 10px !important;
+}
+.schedule .sec-1 {
+  display: flex !important;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem 1rem;
+}
+.schedule .badge {
+  color: red;
+  font-size: 20px !important;
+  background-color: #F4EFFD !important;
+  padding: 16px 20px !important;
+  margin-bottom: 10px;
+}
+.schedule .am-pm {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+}
+.schedule h5 {
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+}
+.schedule .icon-box {
+  display: flex;
+  align-items: center;
+}
+.schedule .btn {
+  font-size: 12px !important;
+}
+.schedule .btn-primary {
+  padding: 10px 20px !important;
+}
+.schedule h3 {
+  color: #142648 !important;
+  font-size: 38px;
+}
+.schedule p {
+  font-size: 20px;
+}
+
+@media (max-width: 680px) {
+  .navbar .nav-link {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 1rem;
+  }
+
+  .testimonials .media {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .videos .accordion-button {
+    padding: 1rem 0;
+    color: .videos .accordion-button black;
+  }
+  .videos .accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0 transparent;
+  }
+  .videos .accordion-button:not(.collapsed) {
+    color: #FF8900 !important;
+    background-color: white;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+  }
+  .videos .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/arrow-down.svg");
+    transform: rotate(-180deg);
+  }
+  .videos .accordion-body {
+    padding: 1rem 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

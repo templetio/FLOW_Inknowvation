@@ -1,0 +1,40 @@
+.btn {
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 18px;
+    border-radius: .375rem;
+}
+
+.btn-primary {
+    color: $white;
+    background: linear-gradient(270deg, rgba(238,144,52,1) 0%, rgba(205,123,34,1) 100%);
+    border-color: $btn-color-one;
+    padding: .625rem 2rem;
+    &:hover {
+        color: $white !important;
+        background: transparent !important;
+        border-color: $white;
+    }
+}
+
+.btn-outline-primary {
+    color: $white;
+    background-color: $btn-color-two;
+    border-color: $white;
+    padding: .625rem 2rem;
+    &:hover {
+        color: $white;
+        background: $btn-color-one;
+        border-color: $btn-color-two-hover-border;
+    }
+}
