@@ -83,3 +83,13 @@
     position: absolute;
     width: 100%;
 }
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.05)!important;
+}
+
+.cover {
+    background-position: bottom center!important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}

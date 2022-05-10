@@ -245,6 +245,17 @@ footer .btn-link:hover {
   width: 100%;
 }
 
+.shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05) !important;
+}
+
+.cover {
+  background-position: bottom center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
 .intro .card {
   border-radius: 0.375rem;
 }
@@ -328,7 +339,8 @@ footer .btn-link:hover {
   font-size: 1em;
 }
 .schedule .card {
-  border-radius: 10px !important;
+  border-radius: 25px !important;
+  border-color: #EEEEEE;
 }
 .schedule .sec-1 {
   display: -webkit-box !important;
@@ -359,9 +371,9 @@ footer .btn-link:hover {
   font-weight: 700;
 }
 .schedule h5 {
-  color: red;
-  font-size: 20px;
-  font-weight: 700;
+  color: #142648 !important;
+  font-size: 1.25rem;
+  font-family: "FuturaPTBold";
 }
 .schedule .icon-box {
   display: -webkit-box;
@@ -371,18 +383,23 @@ footer .btn-link:hover {
       -ms-flex-align: center;
           align-items: center;
 }
-.schedule .btn {
-  font-size: 12px !important;
-}
-.schedule .btn-primary {
-  padding: 10px 20px !important;
-}
 .schedule h3 {
   color: #142648 !important;
   font-size: 38px;
 }
 .schedule p {
-  font-size: 20px;
+  font-size: 1rem;
+  color: #63666A;
+}
+
+.numbers h2 {
+  color: #FFFFFF !important;
+  font-size: 5rem;
+  font-family: "FuturaPTBold";
+}
+.numbers p {
+  color: #FFFFFF !important;
+  font-size: 1.75rem;
 }
 
 @media (max-width: 680px) {
