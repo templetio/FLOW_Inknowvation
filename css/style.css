@@ -6,8 +6,12 @@
   font-family: "FuturaPTBold";
   src: url("webFonts/FuturaPT/FuturaPTBold.otf");
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h4, h5, h6, .h1, .h2, .h4, .h5, .h6 {
   font-family: "FuturaPTBook";
+}
+
+h3, .h3 {
+  font-family: "FuturaPTBold";
 }
 
 .btn {
@@ -59,18 +63,16 @@ li, span, a, p, select, .txt {
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
-      user-select: none;
+  user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 18px;
-  border-radius: 0.375rem;
+  border-radius: 10px;
 }
 
 .btn-primary {
   color: #FFFFFF !important;
-  background: -webkit-gradient(linear, right top, left top, from(#ee9034), to(#cd7b22));
   background: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
   border-color: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
   padding: 0.625rem 2rem;
@@ -89,13 +91,18 @@ li, span, a, p, select, .txt {
 }
 .btn-outline-primary:hover {
   color: #FFFFFF !important;
-  background: -webkit-gradient(linear, right top, left top, from(#ee9034), to(#cd7b22));
   background: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
   border-color: transparent !important;
 }
 
+.btn-outline-orange:hover {
+  color: #FF8900 !important;
+  background-color: transparent;
+  border-color: #FF8900 !important;
+}
+
 footer .text-muted {
-  color: #5D5D5D !important;
+  color: #B2B2B2 !important;
   font-size: 0.75rem;
 }
 footer .btn {
@@ -104,21 +111,18 @@ footer .btn {
 footer .fa-brands {
   font-size: 1.25rem;
   color: #AAAAAA;
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 footer .fa-brands:hover {
   color: #FF8900 !important;
 }
 footer .btn-link {
   font-weight: 400;
-  color: #5D5D5D !important;
+  color: #555555 !important;
   text-decoration: none;
 }
 footer .btn-link:hover {
-  color: #07DD87 !important;
+  color: #FF8900 !important;
 }
 
 .modal .modal-title {
@@ -167,7 +171,7 @@ footer .btn-link:hover {
 }
 
 .fs-20 {
-  font-size: 1.25rem;
+  font-size: 20px !important;
 }
 
 .bg-light {
@@ -181,8 +185,11 @@ footer .btn-link:hover {
 }
 
 .bg-blue {
-  background: -webkit-gradient(linear, left top, right top, from(#21b1e2), to(#0370af));
   background: linear-gradient(90deg, #21b1e2 0%, #0370af 100%);
+}
+
+.bg-blue-gra {
+  background: linear-gradient(180deg, #1f86c7 0%, #052367 100%);
 }
 
 .py-6 {
@@ -191,7 +198,7 @@ footer .btn-link:hover {
 }
 
 .text-gray {
-  color: #5D5D5D !important;
+  color: #63666A !important;
 }
 
 .title {
@@ -202,7 +209,7 @@ footer .btn-link:hover {
 
 .lead {
   font-family: "FuturaPTBook";
-  color: #5D5D5D !important;
+  color: #63666A !important;
   font-size: 18px;
 }
 
@@ -218,10 +225,7 @@ footer .btn-link:hover {
 }
 
 .btn-video-thumbnail {
-  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   color: #D0D0D0;
 }
 .btn-video-thumbnail:hover {
@@ -246,8 +250,7 @@ footer .btn-link:hover {
 }
 
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05) !important;
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05) !important;
 }
 
 .cover {
@@ -264,7 +267,7 @@ footer .btn-link:hover {
   color: #434343 !important;
 }
 .intro .card .card-text {
-  color: #5D5D5D !important;
+  color: #63666A !important;
   font-size: 0.875rem;
   line-height: 1.625rem;
 }
@@ -303,15 +306,15 @@ footer .btn-link:hover {
 }
 
 .collaterals .card {
-  border-radius: 0.375rem;
+  border-radius: 25px;
 }
 .collaterals .card .card-title {
   font-size: 1.25rem;
   color: #434343 !important;
 }
 .collaterals .card .card-text {
-  color: #5D5D5D !important;
-  font-size: 0.875rem;
+  color: #63666A !important;
+  font-size: 16px;
   line-height: 1.625rem;
 }
 .collaterals .card hr {
@@ -321,13 +324,25 @@ footer .btn-link:hover {
   border-radius: 0 0 0.375rem 0.375rem;
   padding: 0.84rem 2rem;
 }
+.collaterals h3 {
+  font-size: 38px !important;
+  color: #142648 !important;
+  font-weight: 700 !important;
+}
+.collaterals h5 {
+  font-size: 20px !important;
+  color: #142648 !important;
+  font-weight: 700 !important;
+}
+.collaterals .fs-20 {
+  font-size: 20px !important;
+}
 
 .schedule .nav-pills {
   background-color: #EEF1F4;
   border-radius: 10px;
 }
 .schedule .nav-pills .active {
-  background: -webkit-gradient(linear, left top, right top, from(#ee9034), to(#cd7b22));
   background: linear-gradient(90deg, #ee9034 0%, #cd7b22 100%);
 }
 .schedule .nav-link {
@@ -343,19 +358,10 @@ footer .btn-link:hover {
   border-color: #EEEEEE;
 }
 .schedule .sec-1 {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
   display: flex !important;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
   padding: 1rem 1rem;
 }
 .schedule .badge {
@@ -376,12 +382,8 @@ footer .btn-link:hover {
   font-family: "FuturaPTBold";
 }
 .schedule .icon-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .schedule h3 {
   color: #142648 !important;
@@ -400,6 +402,45 @@ footer .btn-link:hover {
 .numbers p {
   color: #FFFFFF !important;
   font-size: 1.75rem;
+}
+
+.our-speaker-lineup h3 {
+  font-size: 38px !important;
+  color: #142648 !important;
+  font-weight: 700 !important;
+}
+.our-speaker-lineup h5 {
+  font-size: 20px !important;
+  color: #142648 !important;
+  font-weight: 700 !important;
+  font-family: "FuturaPTBold";
+}
+.our-speaker-lineup p {
+  font-size: 16px !important;
+  color: #63666A !important;
+}
+.our-speaker-lineup .fs-20 {
+  font-size: 20px !important;
+}
+
+.save-your-seat h3 {
+  font-size: 32px !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+}
+.save-your-seat p {
+  font-size: 24px !important;
+  color: #FFFFFF !important;
+}
+.save-your-seat label {
+  color: #FFFFFF !important;
+}
+.save-your-seat .form-control {
+  border-radius: 10px;
+}
+.save-your-seat .form-check-input:checked {
+  background-color: #FF8900 !important;
+  border-color: #FF8900 !important;
 }
 
 @media (max-width: 680px) {
@@ -423,21 +464,30 @@ footer .btn-link:hover {
     z-index: 3;
     border-color: transparent;
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0 transparent;
-            box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
   }
   .videos .accordion-button:not(.collapsed) {
     color: #FF8900 !important;
     background-color: white;
-    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
-            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
   }
   .videos .accordion-button:not(.collapsed)::after {
     background-image: url("../images/arrow-down.svg");
-    -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    transform: rotate(-180deg);
   }
   .videos .accordion-body {
     padding: 1rem 0;
   }
 }
+@media (max-width: 426px) {
+  .header .img1 {
+    padding-top: 60px !important;
+  }
+
+  .calltoaction .d-flex {
+    display: initial !important;
+    text-align-last: center !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

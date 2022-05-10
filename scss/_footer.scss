@@ -11,15 +11,15 @@ footer {
         color: #AAAAAA;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
         &:hover {
-            color: $btn-color-two-hover;
+            color: $orange;
         }
     }
     .btn-link {
         font-weight: 400;
-        color: $footer-text;
+        color: $footer-text-link;
         text-decoration: none;
         &:hover {
-            color: $btn-link-color-hover;
+            color: $orange;
         }
     }
 }

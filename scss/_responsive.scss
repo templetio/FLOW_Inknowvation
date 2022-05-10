@@ -44,3 +44,18 @@ $layout-breakpoint-small: 680px;
 
 }
 
+@media (max-width: 426px) {
+    .header {
+        .img1 {
+            padding-top: 60px !important;
+        }
+
+    }
+
+    .calltoaction {
+        .d-flex {
+            display: initial !important;
+            text-align-last: center !important;
+        }
+    }
+}
