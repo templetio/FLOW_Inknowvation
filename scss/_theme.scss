@@ -77,18 +77,19 @@
 .schedule {
     .nav-pills {
         background-color: #EEF1F4;
-
+        border-radius: 10px;
         .active {
             background: $orange-gra;
         }
     }
 
     .nav-link {
-        padding: 20px 179px !important;
+        padding: 20px 175px !important;
         color: #5D5D5D;
-        font-weight: 700;
+        font-family: 'FuturaPTBold';
         text-transform: uppercase;
         border-radius: 10px;
+        font-size: 1em;
     }
 
     .card {

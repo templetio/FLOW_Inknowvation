@@ -41,9 +41,9 @@ li, span, a, p, select, .txt {
 }
 
 .header .cover {
-  background-position: top center !important;
+  background-position: bottom center !important;
   background-repeat: no-repeat !important;
-  background-size: contain !important;
+  background-size: cover !important;
 }
 .header span {
   color: #FF8900;
@@ -59,7 +59,8 @@ li, span, a, p, select, .txt {
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
-  user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
@@ -69,6 +70,7 @@ li, span, a, p, select, .txt {
 
 .btn-primary {
   color: #FFFFFF !important;
+  background: -webkit-gradient(linear, right top, left top, from(#ee9034), to(#cd7b22));
   background: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
   border-color: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
   padding: 0.625rem 2rem;
@@ -87,6 +89,7 @@ li, span, a, p, select, .txt {
 }
 .btn-outline-primary:hover {
   color: #FFFFFF !important;
+  background: -webkit-gradient(linear, right top, left top, from(#ee9034), to(#cd7b22));
   background: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
   border-color: transparent !important;
 }
@@ -101,7 +104,10 @@ footer .btn {
 footer .fa-brands {
   font-size: 1.25rem;
   color: #AAAAAA;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 footer .fa-brands:hover {
   color: #FF8900 !important;
@@ -175,6 +181,7 @@ footer .btn-link:hover {
 }
 
 .bg-blue {
+  background: -webkit-gradient(linear, left top, right top, from(#21b1e2), to(#0370af));
   background: linear-gradient(90deg, #21b1e2 0%, #0370af 100%);
 }
 
@@ -211,7 +218,10 @@ footer .btn-link:hover {
 }
 
 .btn-video-thumbnail {
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   color: #D0D0D0;
 }
 .btn-video-thumbnail:hover {
@@ -228,6 +238,11 @@ footer .btn-link:hover {
 .icon svg {
   width: 3.5rem;
   fill: #FFFFFF !important;
+}
+
+.absolute-top {
+  position: absolute;
+  width: 100%;
 }
 
 .intro .card {
@@ -298,25 +313,37 @@ footer .btn-link:hover {
 
 .schedule .nav-pills {
   background-color: #EEF1F4;
+  border-radius: 10px;
 }
 .schedule .nav-pills .active {
+  background: -webkit-gradient(linear, left top, right top, from(#ee9034), to(#cd7b22));
   background: linear-gradient(90deg, #ee9034 0%, #cd7b22 100%);
 }
 .schedule .nav-link {
-  padding: 20px 179px !important;
+  padding: 20px 175px !important;
   color: #5D5D5D;
-  font-weight: 700;
+  font-family: "FuturaPTBold";
   text-transform: uppercase;
   border-radius: 10px;
+  font-size: 1em;
 }
 .schedule .card {
   border-radius: 10px !important;
 }
 .schedule .sec-1 {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
   display: flex !important;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding: 1rem 1rem;
 }
 .schedule .badge {
@@ -337,8 +364,12 @@ footer .btn-link:hover {
   font-weight: 700;
 }
 .schedule .icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .schedule .btn {
   font-size: 12px !important;
@@ -375,20 +406,21 @@ footer .btn-link:hover {
     z-index: 3;
     border-color: transparent;
     outline: 0;
-    box-shadow: 0 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+            box-shadow: 0 0 0 0 transparent;
   }
   .videos .accordion-button:not(.collapsed) {
     color: #FF8900 !important;
     background-color: white;
-    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
   }
   .videos .accordion-button:not(.collapsed)::after {
     background-image: url("../images/arrow-down.svg");
-    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
   }
   .videos .accordion-body {
     padding: 1rem 0;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
