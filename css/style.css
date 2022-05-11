@@ -73,8 +73,8 @@ li, span, a, p, select, .txt {
 
 .btn-primary {
   color: #FFFFFF !important;
-  background: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
-  border-color: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
+  background: linear-gradient(180deg, #ee9034 0%, #cd7b22 100%);
+  border-color: linear-gradient(180deg, #ee9034 0%, #cd7b22 100%);
   padding: 0.625rem 2rem;
 }
 .btn-primary:hover {
@@ -91,7 +91,7 @@ li, span, a, p, select, .txt {
 }
 .btn-outline-primary:hover {
   color: #FFFFFF !important;
-  background: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
+  background: linear-gradient(180deg, #ee9034 0%, #cd7b22 100%);
   border-color: transparent !important;
 }
 
@@ -283,7 +283,7 @@ footer .btn-link:hover {
 }
 .tab .nav-pills .nav-link.active, .tab .nav-pills .show > .nav-link {
   color: #FFFFFF !important;
-  background-color: linear-gradient(270deg, #ee9034 0%, #cd7b22 100%);
+  background-color: linear-gradient(180deg, #ee9034 0%, #cd7b22 100%);
 }
 .tab .nav-pills .nav-link.active:hover, .tab .nav-pills .show > .nav-link:hover {
   color: #FFFFFF !important;
@@ -333,6 +333,7 @@ footer .btn-link:hover {
   font-size: 20px !important;
   color: #142648 !important;
   font-weight: 700 !important;
+  font-family: "FuturaPTBold" !important;
 }
 .collaterals .fs-20 {
   font-size: 20px !important;
@@ -343,7 +344,7 @@ footer .btn-link:hover {
   border-radius: 10px;
 }
 .schedule .nav-pills .active {
-  background: linear-gradient(90deg, #ee9034 0%, #cd7b22 100%);
+  background: linear-gradient(180deg, #ee9034 0%, #cd7b22 100%);
 }
 .schedule .nav-link {
   padding: 20px 175px !important;
@@ -422,6 +423,31 @@ footer .btn-link:hover {
 .our-speaker-lineup .fs-20 {
   font-size: 20px !important;
 }
+.our-speaker-lineup .modal {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+.our-speaker-lineup .modal-dialog {
+  max-width: 577px !important;
+}
+.our-speaker-lineup .modal-content {
+  border-radius: 25px !important;
+}
+.our-speaker-lineup .modal-header {
+  padding: 10px 10px !important;
+  border-bottom: 0 !important;
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+}
+.our-speaker-lineup .modal-body {
+  padding: 0px 30px !important;
+}
+.our-speaker-lineup .modal-footer {
+  justify-content: center !important;
+  border-top: 0 !important;
+}
+.our-speaker-lineup a {
+  text-decoration: none !important;
+}
 
 .save-your-seat h3 {
   font-size: 32px !important;
@@ -434,6 +460,7 @@ footer .btn-link:hover {
 }
 .save-your-seat label {
   color: #FFFFFF !important;
+  font-family: "FuturaPTBook" !important;
 }
 .save-your-seat .form-control {
   border-radius: 10px;
@@ -487,6 +514,20 @@ footer .btn-link:hover {
   .calltoaction .d-flex {
     display: initial !important;
     text-align-last: center !important;
+  }
+  .calltoaction .mt-sm-20 {
+    margin-top: 20px;
+  }
+
+  .schedule .nav-link {
+    padding: 20px 160px !important;
+  }
+  .schedule .sec-1 {
+    align-items: start !important;
+  }
+
+  .numbers .aling-mobile {
+    display: contents !important;
   }
 }
 

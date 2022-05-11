@@ -17,7 +17,7 @@
 
 .btn-primary {
     color: $white;
-    background: linear-gradient(270deg, rgba(238,144,52,1) 0%, rgba(205,123,34,1) 100%);
+    background: $orange-gra;
     border-color: $btn-color-one;
     padding: .625rem 2rem;
     &:hover {

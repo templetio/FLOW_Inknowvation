@@ -57,5 +57,25 @@ $layout-breakpoint-small: 680px;
             display: initial !important;
             text-align-last: center !important;
         }
+
+        .mt-sm-20 {
+            margin-top: 20px;
+        }
+    }
+
+    .schedule {
+        .nav-link {
+            padding: 20px 160px !important;
+        }
+
+        .sec-1 {
+            align-items: start !important;
+        }
+    }
+
+    .numbers {
+        .aling-mobile {
+            display: contents !important;
+        }
     }
 }

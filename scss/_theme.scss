@@ -83,6 +83,7 @@
         font-size: 20px !important;
         color: $blue;
         font-weight: 700 !important;
+        font-family: 'FuturaPTBold' !important;
     }
 
     .fs-20 {
@@ -191,6 +192,38 @@
     .fs-20 {
         font-size: 20px !important;
     }
+
+    .modal {
+        background-color: rgba(0,0,0, 0.75) !important;
+    }
+
+    .modal-dialog {
+        max-width: 577px !important;
+    }
+
+    .modal-content {
+        border-radius: 25px !important;
+    }
+
+    .modal-header {
+        padding: 10px 10px !important;
+        border-bottom: 0 !important;
+        border-top-left-radius: 25px !important;
+        border-top-right-radius: 25px !important;
+    }
+
+    .modal-body {
+        padding: 0px 30px !important;
+    }
+
+    .modal-footer {
+        justify-content: center !important;
+        border-top: 0 !important;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
 }
 
 .save-your-seat {
@@ -207,6 +240,7 @@
 
     label {
         color: $white;
+        font-family: 'FuturaPTBook' !important;
     }
 
     .form-control {
