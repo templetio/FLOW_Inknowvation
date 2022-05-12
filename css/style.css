@@ -506,7 +506,7 @@ footer .btn-link:hover {
     padding: 1rem 0;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 680px) {
   .header .img1 {
     padding-top: 60px !important;
   }
