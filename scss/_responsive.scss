@@ -78,4 +78,16 @@ $layout-breakpoint-small: 680px;
             display: contents !important;
         }
     }
+
+    .filters {
+        .mb-sm-020 {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .d-sm-inline-flex {
+        display: inline-flex!important;
+    }
 }

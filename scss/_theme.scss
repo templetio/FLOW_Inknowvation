@@ -254,3 +254,97 @@
         }
     }
 }
+
+.breadcrumb {
+    a {
+        color: #63666A;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    li {
+        color: #63666A;
+        font-size: 20px;
+    }
+}
+
+.filters {
+    .form-select {
+        padding: 1rem 2.25rem 1rem 1rem;
+        border-radius: 10px;
+        border: 1px solid #EE8F33;
+        font-size: 16px;
+        color: #63666A;
+        background-image: url("../images/Input.svg");
+        background-position: right -2px center;
+        background-size: 57px 102%;
+
+        &:focus {
+            box-shadow: 0 0 0 0.25rem rgb(238 143 51 / 25%);
+        }
+    }
+
+    .form-control {
+        padding: 1rem 2.25rem 1rem 1rem;
+        font-size: 16px;
+        color: #63666A;
+        border: 1px solid #EE8F33;
+        border-radius: 10px;
+
+        &:focus {
+            box-shadow: 0 0 0 0.25rem rgb(238 143 51 / 25%);
+        }
+    }
+
+    .btn {
+        transition: none !important;
+    }
+
+    .btn-primary {
+        &:hover {
+            color: #FFFFFF !important;
+            background: #EE8F33 !important;
+            border-color: #EE8F33 !important;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 0.25rem rgb(238 143 51 / 25%);
+        }
+    }
+
+    .mb-sm-20 {
+        margin-bottom: 20px;
+    }
+}
+
+.table {
+    :not(caption)>*>* {
+        padding: 1rem 1rem !important;
+    }
+
+    thead {
+        border-style: hidden !important;
+    }
+
+    .bs-none {
+        border-style: none !important;
+    }
+
+    th {
+        background-color: #F1F1F1 !important;
+        font-size: 20px;
+        font-family: 'FuturaPTBold';
+
+        &.btlr {
+            border-top-left-radius: 10px;
+        }
+
+        &.btrr {
+            border-top-right-radius: 10px;
+        }
+
+        &.text-white {
+            background: linear-gradient(180deg, rgba(33,177,226,1) 0%, rgba(29,134,200,1) 100%);
+        }
+    }
+}

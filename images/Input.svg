@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee8f33"/>
+      <stop offset="1" stop-color="#cd7b22"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1527" data-name="Grupo 1527" transform="translate(-749 -7056)">
+    <path id="Input" d="M0,0H38A10,10,0,0,1,48,10V38A10,10,0,0,1,38,48H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(749 7056)" fill="url(#linear-gradient)"/>
+    <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(760.35 7065.233)">
+      <path id="Trazado_51" data-name="Trazado 51" d="M4.5,18H21.8" transform="translate(0 -3.233)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Trazado_52" data-name="Trazado 52" d="M4.5,9H21.8" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Trazado_53" data-name="Trazado 53" d="M4.5,27H21.8" transform="translate(0 -6.467)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
