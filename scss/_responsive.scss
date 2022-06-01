@@ -44,7 +44,7 @@ $layout-breakpoint-small: 680px;
 
 }
 
-@media (max-width: 680px) {
+@media (max-width: 769px) {
     .header {
         .img1 {
             padding-top: 60px !important;
@@ -55,7 +55,10 @@ $layout-breakpoint-small: 680px;
     .calltoaction {
         .d-flex {
             display: initial !important;
-            text-align-last: center !important;
+            text-align: center !important;
+        }
+        .text-end {
+            text-align: center !important;
         }
 
         .mt-sm-20 {
@@ -78,16 +81,26 @@ $layout-breakpoint-small: 680px;
             display: contents !important;
         }
     }
-
-    .filters {
-        .mb-sm-020 {
-            margin-bottom: 20px;
+    .our-standings {
+        .d-flex-inline {
+            display: initial !important;
+        }
+        .mb-20 {
+            margin-bottom: 20px !important;
         }
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
     .d-sm-inline-flex {
         display: inline-flex!important;
+    }
+}
+
+@media (max-width: 575px) {
+    .filters {
+        .mb-20 {
+            margin-bottom: 20px !important;
+        }
     }
 }
