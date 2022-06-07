@@ -156,6 +156,18 @@
         font-size: 1rem;
         color: #63666A;
     }
+
+    .sub-title {
+        font-size: 28px;
+        color: #63666A;
+        font-weight: 400;
+        margin-bottom: 0px;
+
+        span {
+            font-weight: 700;
+            font-family: 'FuturaPTBold';
+        }
+    }
 }
 
 .numbers {

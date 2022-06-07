@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.59" height="30.59" viewBox="0 0 30.59 30.59">
+  <g id="_002-saba-island" data-name="002-saba-island" transform="translate(0)">
+    <circle id="Ellipse_29" data-name="Ellipse 29" cx="15.295" cy="15.295" r="15.295" transform="translate(0 0)" fill="#f0f0f0"/>
+    <g id="Group_1549" data-name="Group 1549" transform="translate(0 0)">
+      <path id="Path_122" data-name="Path 122" d="M15.295,0C15.281-.011,0,15.291,0,15.295A15.3,15.3,0,0,1,15.295,0Z" transform="translate(0 0)" fill="#d80027"/>
+      <path id="Path_123" data-name="Path 123" d="M256,0c.014-.011,15.3,15.291,15.3,15.295A15.3,15.3,0,0,0,256,0Z" transform="translate(-240.705 0)" fill="#d80027"/>
+    </g>
+    <g id="Group_1550" data-name="Group 1550" transform="translate(0 15.295)">
+      <path id="Path_124" data-name="Path 124" d="M15.295,271.295C15.281,271.306,0,256,0,256A15.3,15.3,0,0,0,15.295,271.295Z" transform="translate(0 -256)" fill="#0052b4"/>
+      <path id="Path_125" data-name="Path 125" d="M256,271.3c.014.011,15.3-15.291,15.3-15.3A15.3,15.3,0,0,1,256,271.3Z" transform="translate(-240.705 -256)" fill="#0052b4"/>
+    </g>
+    <path id="Path_126" data-name="Path 126" d="M145.96,133.565l1.651,5.08h5.342l-4.321,3.14,1.651,5.08-4.321-3.14-4.321,3.14,1.651-5.08-4.321-3.14h5.342Z" transform="translate(-130.665 -125.585)" fill="#ffda44"/>
+  </g>
+</svg>

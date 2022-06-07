@@ -52,6 +52,7 @@ li, span, a, p, select, .txt {
 .header span {
   color: #FF8900;
   font-weight: 700 !important;
+  font-family: "FuturaPTBold" !important;
 }
 
 .btn {
@@ -417,6 +418,16 @@ footer .btn-link:hover {
 .schedule p {
   font-size: 1rem;
   color: #63666A;
+}
+.schedule .sub-title {
+  font-size: 28px;
+  color: #63666A;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.schedule .sub-title span {
+  font-weight: 700;
+  font-family: "FuturaPTBold";
 }
 
 .numbers h2 {

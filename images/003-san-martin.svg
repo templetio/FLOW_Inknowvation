@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.59" height="30.59" viewBox="0 0 30.59 30.59">
+  <g id="_003-san-martin" data-name="003-san-martin" transform="translate(0)">
+    <path id="Path_130" data-name="Path 130" d="M84.465,16.625S74.989,4.478,74.98,4.48a15.295,15.295,0,0,1,26.11,10.815Z" transform="translate(-70.501)" fill="#d80027"/>
+    <path id="Path_131" data-name="Path 131" d="M84.465,256s-9.476,10.817-9.485,10.815A15.3,15.3,0,0,0,101.09,256Z" transform="translate(-70.501 -240.705)" fill="#0052b4"/>
+    <path id="Path_132" data-name="Path 132" d="M4.479,74.98a15.3,15.3,0,0,0,0,21.63L15.295,85.8Z" transform="translate(0 -70.5)" fill="#f0f0f0"/>
+    <g id="Group_1551" data-name="Group 1551" transform="translate(1.662 10.64)">
+      <path id="Path_133" data-name="Path 133" d="M27.84,256c-.008.11-.014.22-.014.332a4.323,4.323,0,1,0,8.645,0c0-.112-.006-.223-.014-.332Z" transform="translate(-27.826 -251.346)" fill="#ffda44"/>
+      <circle id="Ellipse_30" data-name="Ellipse 30" cx="1.33" cy="1.33" r="1.33" transform="translate(2.992)" fill="#ffda44"/>
+    </g>
+    <path id="Path_134" data-name="Path 134" d="M50.087,194.783v4.323c0,2.291,2.993,2.992,2.993,2.992s2.993-.7,2.993-2.992v-4.323Z" transform="translate(-47.095 -183.146)" fill="#d80027"/>
+    <path id="Path_135" data-name="Path 135" d="M74.011,221.636c-.555-.2-1.664-.71-1.664-1.6v-2.993h3.325v2.993C75.672,220.929,74.563,221.438,74.011,221.636Z" transform="translate(-68.025 -204.076)" fill="#338af3"/>
+    <path id="Path_136" data-name="Path 136" d="M85.14,229.172v-.665l-.665-.332-.665.332v.665l-.332.332v1.33h2V229.5Z" transform="translate(-78.491 -214.542)" fill="#f3f3f3"/>
+  </g>
+</svg>
