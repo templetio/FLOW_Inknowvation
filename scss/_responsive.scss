@@ -1,4 +1,12 @@
 $layout-breakpoint-small: 680px;
+$layout-breakpoint-medium: 1200px;
+
+@media (max-width: $layout-breakpoint-medium) {
+    .our-standings h4 {
+        font-size: 16px;
+        color: rgb(99, 102, 106) !important;
+    }
+}
 
 @media (max-width: $layout-breakpoint-small) {
     .navbar {
