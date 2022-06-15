@@ -22,7 +22,7 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./images/logos-header.svg" alt="">
-				<img src="./images/TechBeachLogoWhite.png" width="180" alt="">
+				<!-- <img src="./images/TechBeachLogoWhite.png" width="180" alt=""> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,16 +42,55 @@
     <main class="header">
         <div class="container-fluid cover" style="background-image: url(./images/img-background.png);">
             <div class="container">
-                <div class="row justify-content-center align-items-center height-70">
+                <div class="row justify-content-center align-items-center height-70"> <!-- height-70 -->
                     <div class="col-md-10 text-center mt-lg-5 mt-0">
                         <div class="img1">
                             <img src="./images/logo.png" width="360" alt="" class="img-fluid">
                         </div>
                         <div>
-                            <p class="fs-4 text-white  mb-0 py-4 text-center"><span>The Lead Generation Event Of The Year</span></p>
+                            <p class="fs-4 text-white  mb-0 py-4 text-center">
+                                <span>
+                                    The must-see digital event series for Caribbean small business owners!
+                                    <!-- The Lead Generation Event Of The Year -->
+                                </span>
+                            </p>
                         </div>
                         <div>
                             <img src="./images/header-fechas.png" alt="" class="img-fluid">
+                        </div>
+                        <div>
+                            <!-- <button class="btn btn-outline-primary mt-4" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17.056" height="21.5" viewBox="0 0 17.056 21.5" style="position: relative;top: -3px;">
+                                    <path id="Icon_feather-play" data-name="Icon feather-play" d="M7.5,3.75a.75.75,0,0,1,.406.119l15.556,10a.75.75,0,0,1,0,1.262l-15.556,10A.75.75,0,0,1,6.75,24.5V4.5a.75.75,0,0,1,.75-.75ZM21.669,14.5,8.25,5.874V23.126Z" transform="translate(-6.75 -3.75)" fill="#fff"/>
+                                </svg>
+                                &nbsp;
+                                SAM'S INVITE
+                            </button> -->
+
+                            <button type="button" class="btn btn-outline-primary mt-4 video-btn" data-bs-toggle="modal" data-src="https://player.vimeo.com/video/720475282?h=0db075a6eb&autoplay=1&muted=1&color=ff9933&title=0&byline=0&portrait=0" data-bs-target="#myModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17.056" height="21.5" viewBox="0 0 17.056 21.5" style="position: relative;top: -3px;">
+                                    <path id="Icon_feather-play" data-name="Icon feather-play" d="M7.5,3.75a.75.75,0,0,1,.406.119l15.556,10a.75.75,0,0,1,0,1.262l-15.556,10A.75.75,0,0,1,6.75,24.5V4.5a.75.75,0,0,1,.75-.75ZM21.669,14.5,8.25,5.874V23.126Z" transform="translate(-6.75 -3.75)" fill="#fff"/>
+                                </svg>
+                                &nbsp;
+                                SAM'S INVITE
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade modal-video" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+                                            </button>        
+                                            <!-- 16:9 aspect ratio -->
+                                            <div class="ratio ratio-16x9">
+                                                <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
                         </div>
                     </div>
                 </div>
@@ -844,6 +883,40 @@
         }
 	
     </script>
+
+    <script>
+        $(document).ready(function() {
+            // Gets the video src from the data-src on each button
+            var $videoSrc;  
+            $('.video-btn').click(function() {
+                $videoSrc = $(this).data( "src" );
+            });
+            console.log($videoSrc);
+            
+            // when the modal is opened autoplay it  
+            $('#myModal').on('shown.bs.modal', function (e) {
+                
+            // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+            $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+            })
+            
+            // stop playing the youtube video when I close the modal
+            $('#myModal').on('hide.bs.modal', function (e) {
+                // a poor man's stop video
+                $("#video").attr('src',$videoSrc); 
+            }) 
+        // document ready  
+        });
+    </script>
+
+    <!-- 
+    <script>
+        $(document).ready(function()
+        {
+            $("#myModal").modal("show");
+        });
+    </script> 
+    -->
 
 </body>
 </html>

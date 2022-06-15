@@ -137,6 +137,20 @@ footer .btn-link:hover {
   color: #434343 !important;
 }
 
+.modal-video .modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+.modal-video .modal-body {
+  position: relative;
+  padding: 0px;
+}
+.modal-video .btn-close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+}
+
 .height-10 {
   height: 10vh;
 }
