@@ -841,9 +841,14 @@
 						var leaderboardCount = 0;var otherStandings = 0;
 						leaderboardList.forEach((e) => {//console.log(e.RSVP);
 							//console.log(`${e.firstName} ${e.lastName} ${e.age}`);
-							if(leaderboardCount<8){//console.log(Math.round(parseInt(e.RSVP) * 100 * 100 / rsvpTotal));
+							if(leaderboardCount<8){
+							//console.log((Math.round(parseInt(e.RSVP) * 100 / rsvpTotal)) + " | " + e.RSVP + " | " + rsvpTotal);
 								$(".standings").eq(leaderboardCount).css("width",(Math.round(parseInt(e.RSVP) * 100 * 100 / rsvpTotal) / 100) + "%");
-								if((Math.round(parseInt(e.RSVP) * 100 * 100 / rsvpTotal) / 100)>4){$(".standings").eq(leaderboardCount).html((Math.round(parseInt(e.RSVP) * 100 * 100 / rsvpTotal) / 100) + "%");}
+								
+								if((Math.round(parseInt(e.RSVP) * 100 / rsvpTotal))>=3){
+									//$(".standings").eq(leaderboardCount).html((Math.round(parseInt(e.RSVP) * 100 * 100 / rsvpTotal) / 100) + "%");
+									$(".standings").eq(leaderboardCount).html((Math.round(parseInt(e.RSVP) * 100 / rsvpTotal)) + "%");
+								}
 								$(".countryStandings").eq(leaderboardCount).html(e.Country.toLowerCase());
 							}
 							else{otherStandings += (Math.round(parseInt(e.RSVP) * 100 * 100 / rsvpTotal) / 100);}
